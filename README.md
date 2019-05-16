@@ -6,7 +6,15 @@ Interfacing of A4988 driver with NEMA17 bipolar stepper motor is done by followi
 
 The same code can be used to drive the bipolar stepper motor of PCA pump.
 
-Uploaded image shows the connection of A4988 driver to the bipolar stepper motor of a PCA pump.
+A4988 requires 8V-35V power supply (to VMOT) to drive the motor.
 
-A4988 requires 8V-35V power supply (to VMOT) to drive the motor. Based on previous experiments, it is advisable to use at least 16+V power supply to drive the stepper motor efficiently.
+### Images
+
+1. **PCA-to-A4988.jpg ->** This image shows the wiring from A4988 to PCA pump's bipolar stepper motor. Note that wiring sequence can be reversed and motor will work without any problem. Therefore, before starting the motor, the direction of motor's rotation has to be checked.
+
+2. **A4988 wiring diagram ->** The wiring diagram is taken from [HowToMechatronics](https://www.youtube.com/user/DejanNedelkovski). 
+
+Cheers!
+
+
 
